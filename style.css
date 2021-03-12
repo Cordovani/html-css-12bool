@@ -1,0 +1,23 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+[class*="col"] {
+    background-color: rgb(255, 192, 203);
+    border: 1px solid black;
+}
+
+/* CLEARFIX  */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
