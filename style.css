@@ -10,9 +10,18 @@
     margin: auto;
 }
 
+/* colonne flottanti */
+[class*="col"]{
+    float:left;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
 [class*="col"] {
     background-color: rgb(255, 192, 203);
     border: 1px solid black;
+    padding-top: 90px;
 }
 
 /* CLEARFIX  */
@@ -21,3 +30,11 @@
     display: table;
     clear: both;
 }
+
+.nested {
+    background-color: rgb(240, 127, 128);
+    /* padding: 10px;
+    z-index: 1;     */
+}
+
+

@@ -6,13 +6,14 @@
 }
 
 .container {
-    max-width: ;
+    width: 100%;
+    /* max-width: ; */
     margin: auto;
 }
 
-/* .row {
+.row {
 
-} */
+}
 
 /* CLEARFIX  */
 .container::after {
